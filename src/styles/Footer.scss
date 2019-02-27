@@ -1,0 +1,36 @@
+
+#footer {
+  background-color: #333;
+}
+
+#footer .inner {
+  padding: 30px;
+}
+
+#footer .footer-link ul {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+}
+
+#footer .footer-link li {
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+#footer .footer-link li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#footer .copyright {
+  font-size: 10px;
+  color: #8c8c8c;
+  text-align: center;
+}
