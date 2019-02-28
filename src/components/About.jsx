@@ -6,7 +6,9 @@ function About() {
       <div class="inner">
         <div class="section-title-block">
           <h2 class="section-title">ABOUT</h2>
-          <p class="section-desc">こんにちは。ヤマダハナコと申します。</p>
+          <p class="section-desc">
+            はじめまして。金成雨(きむそんう)と申します。
+          </p>
         </div>
         <div class="two-column-wrapper">
           <div class="two-column-image">

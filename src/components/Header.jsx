@@ -5,9 +5,9 @@ function Header() {
     <>
       <header id="header">
         <h1 class="logo">
-          <span class="logo-name">Hanako Yamada’s</span>
+          <span class="logo-name">Kim Sungwoo’s</span>
           <span class="logo-title">PORTFOLIO</span>
-          <span class="logo-desc">Webデザイナー ヤマダハナコ</span>
+          <span class="logo-desc">Web Engineer</span>
         </h1>
       </header>
       <nav id="gnav">
