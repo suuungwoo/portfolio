@@ -4,17 +4,17 @@ function Header() {
   return (
     <>
       <header id="header">
-        <h1 class="logo">
-          <span class="logo-name">Kim Sungwoo’s</span>
-          <span class="logo-title">PORTFOLIO</span>
-          <span class="logo-desc">Web Engineer</span>
+        <h1 className="logo">
+          <span className="logo-name">Kim Sungwoo’s</span>
+          <span className="logo-title">PORTFOLIO</span>
+          <span className="logo-desc">Web Engineer</span>
         </h1>
       </header>
       <nav id="gnav">
         <ul>
-          <li>
+          {/* <li>
             <a href="#latestworks">LATEST WORKS</a>
-          </li>
+          </li> */}
           <li>
             <a href="#works">WORKS</a>
           </li>

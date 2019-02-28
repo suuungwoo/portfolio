@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import Latestworks from './Latestworks';
+// import Latestworks from './Latestworks';
 import Works from './Works';
 import About from './About';
 import Skill from './Skill';

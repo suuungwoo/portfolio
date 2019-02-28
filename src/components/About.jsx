@@ -1,21 +1,22 @@
 import React from 'react';
+import img_profile from '../img/profile/img_profile.png';
 
 function About() {
   return (
-    <section class="section" id="about">
-      <div class="inner">
-        <div class="section-title-block">
-          <h2 class="section-title">ABOUT</h2>
-          <p class="section-desc">
+    <section className="section" id="about">
+      <div className="inner">
+        <div className="section-title-block">
+          <h2 className="section-title">ABOUT</h2>
+          <p className="section-desc">
             はじめまして。金成雨(きむそんう)と申します。
           </p>
         </div>
-        <div class="two-column-wrapper">
-          <div class="two-column-image">
-            <img src="img/profile/img_profile.png" alt="" />
+        <div className="two-column-wrapper">
+          <div className="two-column-image">
+            <img src={img_profile} alt="" />
           </div>
-          <div class="two-column-desc">
-            <p class="text">
+          <div className="two-column-desc">
+            <p className="text">
               テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
               <br />
               <br />
