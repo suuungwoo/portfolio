@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../img/works/thumb/thumb_dammy.jpg';
 
 function Works() {
   return (
@@ -16,7 +17,7 @@ function Works() {
               href="img/works/dammy.jpg"
               data-size="980x668"
               class="card-image">
-              <img src="img/works/thumb/thumb_dammy.jpg" alt="" />
+              <img src={logo} alt="" />
             </a>
             <figcaption class="card-caption">
               <p class="card-caption-title">作品タイトル</p>
@@ -33,7 +34,7 @@ function Works() {
               href="img/works/dammy.jpg"
               data-size="980x668"
               class="card-image">
-              <img src="img/works/thumb/thumb_dammy.jpg" alt="" />
+              <img src={logo} alt="" />
             </a>
             <figcaption class="card-caption">
               <p class="card-caption-title">作品タイトル</p>
@@ -50,7 +51,7 @@ function Works() {
               href="img/works/dammy.jpg"
               data-size="980x668"
               class="card-image">
-              <img src="img/works/thumb/thumb_dammy.jpg" alt="" />
+              <img src={logo} alt="" />
             </a>
             <figcaption class="card-caption">
               <p class="card-caption-title">作品タイトル</p>

@@ -12,7 +12,7 @@ function Main() {
     <div className="wrapper">
       <Header />
       <main id="contents">
-        <Latestworks />
+        {/* <Latestworks /> */}
         <Works />
         <About />
         <Skill />
