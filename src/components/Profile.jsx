@@ -1,12 +1,12 @@
 import React from 'react';
 import img_profile from '../img/profile/img_profile.png';
 
-function About() {
+function Profile() {
   return (
-    <section className="section" id="about">
+    <section className="section" id="profile">
       <div className="inner">
         <div className="section-title-block">
-          <h2 className="section-title">ABOUT</h2>
+          <h2 className="section-title">PROFILE</h2>
           <p className="section-desc">
             はじめまして。金成雨(きむそんう)と申します。
           </p>
@@ -32,4 +32,4 @@ function About() {
   );
 }
 
-export default About;
+export default Profile;

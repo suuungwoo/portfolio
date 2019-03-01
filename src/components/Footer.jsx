@@ -13,7 +13,7 @@ function Footer() {
               <a href="#works">WORKS</a>
             </li>
             <li>
-              <a href="#about">ABOUT</a>
+              <a href="#profile">PROFILE</a>
             </li>
             <li>
               <a href="#skill">SKILL</a>
@@ -23,7 +23,9 @@ function Footer() {
             </li>
           </ul>
         </nav>
-        <p className="copyright">Copyright&copy;Sho Satoh. All Rights Reserved.</p>
+        <p className="copyright">
+          Copyright&copy;Sho Satoh. All Rights Reserved.
+        </p>
       </div>
     </footer>
   );

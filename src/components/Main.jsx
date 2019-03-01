@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 // import Latestworks from './Latestworks';
 import Works from './Works';
-import About from './About';
+import Profile from './Profile';
 import Skill from './Skill';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -14,7 +14,7 @@ function Main() {
       <main id="contents">
         {/* <Latestworks /> */}
         <Works />
-        <About />
+        <Profile />
         <Skill />
         <Contact />
       </main>
