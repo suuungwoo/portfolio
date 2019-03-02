@@ -1,28 +1,28 @@
 #skill .card-wrapper {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 #skill .card {
-  flex-basis: 46%;
-  margin-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-basis: 46%;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 #skill .card:first-child {
@@ -53,7 +53,8 @@
   font-size: 20px;
 }
 
-#skill .rate:before, #skill .rate:after {
+#skill .rate:before,
+#skill .rate:after {
   position: absolute;
   top: 0;
   left: 0;
@@ -68,8 +69,8 @@
 }
 
 #skill .rate:after {
-  color: #e8629f;
   overflow: hidden;
+  color: #e8629f;
   white-space: nowrap;
 }
 
