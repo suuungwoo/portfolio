@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Gnav from './Gnav';
 // import Latestworks from './Latestworks';
 import Works from './Works';
 import Profile from './Profile';
@@ -9,8 +10,9 @@ import Footer from './Footer';
 
 function Main() {
   return (
-    <div className="wrapper">
+    <div id="wrapper">
       <Header />
+      <Gnav />
       <main id="contents">
         {/* <Latestworks /> */}
         <Works />
