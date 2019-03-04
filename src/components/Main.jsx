@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import Gnav from './Gnav';
+import {Gnav} from './Gnav/index';
 // import Latestworks from './Latestworks';
 import Works from './Works';
 import Profile from './Profile';
