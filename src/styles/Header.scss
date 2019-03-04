@@ -7,6 +7,10 @@
   -ms-align-items: center;
   align-items: center;
   height: 380px;
+  background-image: url(../img/ouji-min.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
 }
@@ -29,7 +33,7 @@
 }
 
 #header .logo-title {
-  color: $main_color;
+  color: $bg_color;
   font-size: 94px;
   font-family: 'Oswald', sans-serif;
   line-height: 1;
@@ -41,54 +45,4 @@
   margin-top: 5px;
   font-size: 16px;
   text-align: center;
-}
-
-#gnav {
-  position: sticky;
-  top: 0px;
-  z-index: 100;
-  padding: 10px;
-  font-family: 'Open sans', sans-serif;
-  background-color: #f3f3f3;
-  -webkit-box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
-}
-
-#gnav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-#gnav li {
-  padding: 0 20px;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-#gnav li:last-child {
-  margin-right: 0;
-}
-
-#gnav li a {
-  color: #333;
-  letter-spacing: -0.01em;
-}
-
-#gnav.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f3f3f3;
-  -webkit-box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
-  transform: translate3d(0, 0, 0);
 }
