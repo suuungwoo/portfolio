@@ -4,6 +4,8 @@ import enhance from './enhancer';
 
 function Gnav(props) {
   const {scroll} = props;
+  console.log(scroll);
+
   return (
     <nav id="gnav" className={classNames({fixed: scroll > 380})}>
       <ul>

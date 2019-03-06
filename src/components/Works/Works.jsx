@@ -1,7 +1,14 @@
 import React from 'react';
-import thumb_dammy from '../img/works/thumb/thumb_dammy.jpg';
+import Modal from 'react-modal';
+import thumb_dammy from '../../img/works/thumb/thumb_dammy.jpg';
+import enhance from './enhancer';
 
-function Works() {
+Modal.setAppElement('body');
+
+function Works(props) {
+  const {isModal, updateIsModal} = props;
+  console.log(props);
+
   return (
     <section className="section" id="works">
       <div className="inner">
@@ -19,8 +26,16 @@ function Works() {
               className="card-image">
               <img src={thumb_dammy} alt="" />
             </a>
+            <Modal
+              isOpen={isModal}
+              contentLabel="Port Folio"
+              onRequestClose={() => {
+                updateIsModal(!isModal);
+              }}>
+              a
+            </Modal>
             <figcaption className="card-caption">
-              <p className="card-caption-title">作品タイトル</p>
+              <p className="card-caption-title">ポートフォリオ</p>
               <p className="card-caption-info">Design / Coding</p>
               <p className="card-caption-url">
                 <a className="url-link" href="＃" target="_blank">
@@ -120,4 +135,4 @@ function Works() {
   );
 }
 
-export default Works;
+export default enhance(props => <Works {...props} />);

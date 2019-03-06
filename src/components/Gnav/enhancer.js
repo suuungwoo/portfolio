@@ -1,4 +1,10 @@
-import {compose, setDisplayName, withStateHandlers, lifecycle} from 'recompose';
+import {
+  compose,
+  setDisplayName,
+  withStateHandlers,
+  lifecycle,
+  withState,
+} from 'recompose';
 
 const scrollTop = () => {
   return Math.max(
@@ -10,13 +16,22 @@ const scrollTop = () => {
 
 const enhance = compose(
   setDisplayName('Gnav'),
-  withStateHandlers(
-    {scroll: scrollTop()},
-    {
-      updateScroll: prev => () => ({
-        scroll: scrollTop(),
-      }),
-    }
+  // withStateHandlers(
+  //   {scroll: scrollTop()},
+  //   {
+  //     updateScroll: () => () => ({
+  //       scroll: scrollTop(),
+  //     }),
+  //   }
+  // ),
+  withState(
+    'scroll',
+    'updateScroll',
+    Math.max(
+      window.pageYOffset,
+      document.documentElement.scrollTop,
+      document.body.scrollTop
+    )
   ),
   lifecycle({
     componentDidMount() {
