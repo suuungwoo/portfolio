@@ -21,6 +21,18 @@
   .section-desc {
     text-align: center;
   }
+
+  @media screen and (max-width: 767px) {
+    .inner {
+      padding: 30px 15px;
+    }
+    .section-title-block {
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-size: 36px;
+    }
+  }
 }
 
 .two-column-wrapper {

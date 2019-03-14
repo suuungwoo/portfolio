@@ -29,6 +29,13 @@ body {
   line-height: 1.8;
   letter-spacing: 0.8px;
   word-break: break-all;
+
+  @media screen and (max-width: 767px) {
+    body {
+      font-size: 13px;
+      line-height: 1.7;
+    }
+  }
 }
 
 a {
@@ -72,4 +79,7 @@ li {
 
 #contents {
   padding: 100px 0;
+  @media screen and (max-width: 767px) {
+    padding: 40px 0;
+  }
 }

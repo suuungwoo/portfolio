@@ -5,4 +5,20 @@
   .two-column-desc {
     width: 48%;
   }
+
+  @media screen and (max-width: 767px) {
+    .two-column-wrapper {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .two-column-image {
+      width: 90%;
+      margin: 0 auto 20px;
+    }
+
+    .two-column-desc {
+      width: 100%;
+    }
+  }
 }

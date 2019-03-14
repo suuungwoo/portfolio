@@ -33,4 +33,16 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
   }
+
+  @media screen and (max-width: 767px) {
+    .card {
+      width: 48%;
+    }
+    .card-caption-title {
+      font-size: 12px;
+    }
+    .card-caption-info {
+      font-size: 11px;
+    }
+  }
 }

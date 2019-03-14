@@ -31,4 +31,15 @@
     font-size: 10px;
     text-align: center;
   }
+
+  @media screen and (max-width: 767px) {
+    .inner {
+      padding: 20px 0;
+    }
+    .footer-link li {
+      margin-bottom: 5px;
+      padding: 0 10px;
+      font-size: 10px;
+    }
+  }
 }

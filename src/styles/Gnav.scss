@@ -38,4 +38,14 @@
     box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
     transform: translate3d(0, 0, 0);
   }
+
+  @media screen and (max-width: 767px) {
+    li {
+      padding: 0 10px;
+      font-size: 14px;
+      a:hover {
+        opacity: 1;
+      }
+    }
+  }
 }

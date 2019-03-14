@@ -43,6 +43,31 @@ function Works(props) {
               </p>
             </figcaption>
           </figure>
+          <figure className="card">
+            <a
+              href="img/works/dammy.jpg"
+              data-size="980x668"
+              className="card-image">
+              <img src={thumb_dammy} alt="" />
+            </a>
+            <Modal
+              isOpen={isModal}
+              contentLabel="Port Folio"
+              onRequestClose={() => {
+                updateIsModal(!isModal);
+              }}>
+              a
+            </Modal>
+            <figcaption className="card-caption">
+              <p className="card-caption-title">ポートフォリオ</p>
+              <p className="card-caption-info">Design / Coding</p>
+              <p className="card-caption-url">
+                <a className="url-link" href="＃" target="_blank">
+                  Link
+                </a>
+              </p>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>

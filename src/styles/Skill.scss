@@ -94,4 +94,46 @@
   .rate5:after {
     width: 100px;
   }
+
+  @media screen and (max-width: 767px) {
+    .card-wrapper {
+      width: 100%;
+    }
+    .card {
+      flex-basis: 100%;
+    }
+    .skill-icon {
+      flex-basis: 45px;
+      img {
+        width: 45px;
+      }
+    }
+    .skill-desc {
+      flex-basis: calc(100% - 45px - 10px);
+    }
+    .rate {
+      height: 15px;
+      font-size: 15px;
+      &:before,
+      &:after {
+        height: 15px;
+        line-height: 15px;
+      }
+    }
+    .rate1:after {
+      width: 15px;
+    }
+    .rate2:after {
+      width: 30px;
+    }
+    .rate3:after {
+      width: 45px;
+    }
+    .rate4:after {
+      width: 60px;
+    }
+    .rate5:after {
+      width: 75px;
+    }
+  }
 }
