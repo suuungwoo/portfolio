@@ -21,7 +21,7 @@
 }
 
 body {
-  color: #333;
+  color: $text_color;
   font-size: 15px;
   font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro',
     '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック体', YuGothic,
@@ -34,16 +34,15 @@ body {
 a {
   color: #1ca9e3;
   text-decoration: none;
-}
-
-a:hover,
-a:hover img {
-  opacity: 0.8;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
+  &:hover,
+  &:hover img {
+    opacity: 0.8;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
 }
 
 img,

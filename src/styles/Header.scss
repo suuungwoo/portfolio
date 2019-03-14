@@ -6,43 +6,32 @@
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  height: 380px;
-  background-image: url(../img/ouji-min.png);
+  height: 700px;
+  background-image: url(../img/header/house.jpg);
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
   background-attachment: fixed;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-}
 
-#header .logo {
-  display: block;
-}
+  .logo {
+    display: block;
+  }
 
-#header .logo-name {
-  position: relative;
-  top: -8px;
-  left: -60px;
-  display: block;
-  display: block;
-  color: $sub_color;
-  font-size: 36px;
-  font-family: 'Yesteryear', cursive;
-  -webkit-transform: rotate(-10deg);
-  transform: rotate(-10deg);
-}
+  .logo-title {
+    color: $bg_color;
+    font-size: 94px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+    letter-spacing: -2px;
+  }
 
-#header .logo-title {
-  color: $bg_color;
-  font-size: 94px;
-  font-family: 'Oswald', sans-serif;
-  line-height: 1;
-  letter-spacing: -2px;
-}
-
-#header .logo-desc {
-  display: block;
-  margin-top: 5px;
-  font-size: 16px;
-  text-align: center;
+  .logo-desc {
+    display: block;
+    margin-top: 5px;
+    color: #ffb6b5;
+    font-size: 16px;
+    text-align: center;
+  }
 }

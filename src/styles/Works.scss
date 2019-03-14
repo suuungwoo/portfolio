@@ -1,37 +1,36 @@
-#works .card {
-  width: 32%;
-}
+#works {
+  .card {
+    width: 32%;
+    margin-bottom: 50px;
+  }
 
-#works .card {
-  margin-bottom: 50px;
-}
+  .card-image {
+    display: block;
+    margin-bottom: 8px;
+  }
 
-#works .card-image {
-  display: block;
-  margin-bottom: 8px;
-}
+  .card-caption-title {
+    font-weight: bold;
+    font-size: 13px;
+  }
 
-#works .card-caption-title {
-  font-weight: bold;
-  font-size: 13px;
-}
+  .card-caption-info {
+    font-size: 12px;
+  }
 
-#works .card-caption-info {
-  font-size: 12px;
-}
+  .card-caption-url {
+    font-size: 10px;
+  }
 
-#works .card-caption-url {
-  font-size: 10px;
-}
-
-#works .card-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px 0;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
+  .card-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+  }
 }

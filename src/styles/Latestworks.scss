@@ -1,7 +1,8 @@
-#latestworks .two-column-image {
-  width: 48%;
-}
-
-#latestworks .two-column-desc {
-  width: 48%;
+#latestworks {
+  .two-column-image {
+    width: 48%;
+  }
+  .two-column-desc {
+    width: 48%;
+  }
 }

@@ -1,7 +1,9 @@
-#profile .two-column-image {
-  width: 33%;
-}
+#profile {
+  .two-column-image {
+    width: 33%;
+  }
 
-#profile .two-column-desc {
-  width: 62%;
+  .two-column-desc {
+    width: 62%;
+  }
 }

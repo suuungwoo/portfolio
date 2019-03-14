@@ -15,9 +15,9 @@ function Main() {
       <Gnav />
       <main id="contents">
         {/* <Latestworks /> */}
-        <Works />
         <Profile />
         <Skill />
+        <Works />
         <Contact />
       </main>
       <Footer />
