@@ -6,7 +6,7 @@
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  height: 700px;
+  height: 100vh;
   background-image: url(../img/header/house.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -36,8 +36,6 @@
   }
 
   @media screen and (max-width: 767px) {
-    height: 100vh;
-
     .logo-title {
       font-size: 32px;
     }

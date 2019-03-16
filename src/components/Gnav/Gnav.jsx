@@ -6,7 +6,7 @@ function Gnav(props) {
   const {scroll} = props;
 
   return (
-    <nav id="gnav" className={classNames({fixed: scroll > 700})}>
+    <nav id="gnav" className={classNames({fixed: scroll > 766})}>
       <ul>
         {/* <li>
             <a href="#latestworks">LATEST WORKS</a>
