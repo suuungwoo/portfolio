@@ -1,6 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
-import thumb_dammy from '../../img/works/thumb/thumb_dammy.jpg';
+import portfolio from '../../img/works/portfolio-ss.png';
+import playground from '../../img/works/playground-ss.png';
 import enhance from './enhancer';
 
 Modal.setAppElement('body');
@@ -14,16 +15,13 @@ function Works(props) {
         <div className="section-title-block">
           <h2 className="section-title">WORKS</h2>
           <div className="section-desc">
-            <p className="text">これまでの制作実績です。</p>
+            <p className="text">これまで制作したものです。</p>
           </div>
         </div>
         <div className="card-wrapper my-gallery">
           <figure className="card">
-            <a
-              href="img/works/dammy.jpg"
-              data-size="980x668"
-              className="card-image">
-              <img src={thumb_dammy} alt="" />
+            <a href={portfolio} data-size="980x668" className="card-image">
+              <img src={portfolio} alt="" />
             </a>
             <Modal
               isOpen={isModal}
@@ -44,11 +42,8 @@ function Works(props) {
             </figcaption>
           </figure>
           <figure className="card">
-            <a
-              href="img/works/dammy.jpg"
-              data-size="980x668"
-              className="card-image">
-              <img src={thumb_dammy} alt="" />
+            <a href={playground} data-size="980x668" className="card-image">
+              <img src={playground} alt="" />
             </a>
             <Modal
               isOpen={isModal}

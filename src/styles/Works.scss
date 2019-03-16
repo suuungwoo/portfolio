@@ -1,12 +1,16 @@
 #works {
   .card {
-    width: 32%;
+    width: 45%;
     margin-bottom: 50px;
   }
 
   .card-image {
     display: block;
     margin-bottom: 8px;
+    img {
+      border: 1px solid #b30753;
+      border-radius: 5px;
+    }
   }
 
   .card-caption-title {
