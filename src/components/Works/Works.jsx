@@ -20,23 +20,44 @@ function Works(props) {
         </div>
         <div className="card-wrapper my-gallery">
           <figure className="card">
-            <a href={portfolio} data-size="980x668" className="card-image">
+            <a
+              href={portfolio}
+              data-size="980x668"
+              className="card-image"
+              onClick={() => {
+                updateIsModal(!isModal);
+              }}>
               <img src={portfolio} alt="" />
             </a>
-            <Modal
+            {/* <Modal
               isOpen={isModal}
               contentLabel="Port Folio"
               onRequestClose={() => {
                 updateIsModal(!isModal);
               }}>
-              a
-            </Modal>
+              <div>
+                <img src={portfolio} alt="" />
+              </div>
+            </Modal> */}
             <figcaption className="card-caption">
               <p className="card-caption-title">ポートフォリオ</p>
-              <p className="card-caption-info">Design / Coding</p>
+              <p className="card-caption-info">このサイトです。</p>
               <p className="card-caption-url">
-                <a className="url-link" href="＃" target="_blank">
-                  Link
+                URL:
+                <a
+                  className="url-link"
+                  href="https://suuungwoo.github.io/homepage/"
+                  target="_blank">
+                  https://suuungwoo.github.io/homepage/
+                </a>
+              </p>
+              <p className="card-caption-url">
+                ソースコード:
+                <a
+                  className="url-link"
+                  href="https://github.com/suuungwoo/homepage/tree/master"
+                  target="_blank">
+                  https://github.com/suuungwoo/homepage/tree/master
                 </a>
               </p>
             </figcaption>
@@ -45,20 +66,35 @@ function Works(props) {
             <a href={playground} data-size="980x668" className="card-image">
               <img src={playground} alt="" />
             </a>
-            <Modal
+            {/* <Modal
               isOpen={isModal}
               contentLabel="Port Folio"
               onRequestClose={() => {
                 updateIsModal(!isModal);
               }}>
-              a
-            </Modal>
+              ab
+            </Modal> */}
             <figcaption className="card-caption">
-              <p className="card-caption-title">ポートフォリオ</p>
-              <p className="card-caption-info">Design / Coding</p>
+              <p className="card-caption-title">ホテル検索</p>
+              <p className="card-caption-info">
+                地名を入力して近くのホテルを検索するサイトです。
+              </p>
               <p className="card-caption-url">
-                <a className="url-link" href="＃" target="_blank">
-                  Link
+                URL:
+                <a
+                  className="url-link"
+                  href="http://playground-gckim.gemcook.com/hotel/"
+                  target="_blank">
+                  http://playground-gckim.gemcook.com/hotel/
+                </a>
+              </p>
+              <p className="card-caption-url">
+                ソースコード:
+                <a
+                  className="url-link"
+                  href="https://github.com/suuungwoo/playground"
+                  target="_blank">
+                  https://github.com/suuungwoo/playground
                 </a>
               </p>
             </figcaption>

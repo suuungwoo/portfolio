@@ -83,3 +83,7 @@ li {
     padding: 40px 0;
   }
 }
+
+.ReactModal__Overlay--after-open {
+  z-index: 2;
+}
