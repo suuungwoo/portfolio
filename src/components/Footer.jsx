@@ -6,12 +6,9 @@ function Footer() {
       <div className="inner">
         <nav className="footer-link">
           <ul>
-            <li>
+            {/* <li>
               <a href="#latestworks">LATEST WORKS</a>
-            </li>
-            <li>
-              <a href="#works">WORKS</a>
-            </li>
+            </li> */}
             <li>
               <a href="#profile">PROFILE</a>
             </li>
@@ -19,13 +16,16 @@ function Footer() {
               <a href="#skill">SKILL</a>
             </li>
             <li>
+              <a href="#works">WORKS</a>
+            </li>
+            <li>
               <a href="#contact">CONTACT</a>
             </li>
           </ul>
         </nav>
-        <p className="copyright">
+        {/* <p className="copyright">
           Copyright&copy;Sho Satoh. All Rights Reserved.
-        </p>
+        </p> */}
       </div>
     </footer>
   );

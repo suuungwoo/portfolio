@@ -34,17 +34,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    .skill-logo {
-      // flex-basis: 75px;
-      padding: {
-        top: 24px;
-        right: 24px;
-        left: 24px;
-      }
+    padding: {
+      top: 24px;
+    }
+  }
+  .skill-logo {
+    padding: {
+      right: 24px;
+      left: 24px;
+    }
 
-      img {
-        height: 100px;
-      }
+    img {
+      height: 100px;
     }
   }
 
@@ -55,10 +56,19 @@
     .card {
       flex-basis: 100%;
     }
+    .w__skill {
+      padding: {
+        top: 8px;
+      }
+    }
     .skill-logo {
-      flex-basis: 45px;
+      padding: {
+        right: 8px;
+        left: 8px;
+      }
+
       img {
-        width: 45px;
+        height: 42px;
       }
     }
   }
