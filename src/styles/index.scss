@@ -86,4 +86,54 @@ li {
 
 .ReactModal__Overlay--after-open {
   z-index: 2;
+  background-color: rgba(0, 0, 0, 0.75) !important;
+
+  .f__modal {
+    display: flex;
+    height: 100%;
+    .w__img {
+      width: 80%;
+      overflow: scroll;
+    }
+
+    .card-caption {
+      padding: {
+        left: 20px;
+      }
+      .section-title {
+        color: $main_color;
+        font-size: 40px;
+        text-align: center;
+
+        &:after {
+          display: block;
+          width: 30px;
+          height: 1px;
+          margin: 30px auto;
+          background-color: #ccc;
+          content: '';
+        }
+      }
+      .clearfix {
+        display: flex;
+        padding: 12px 8px;
+        border-bottom: solid #ccc 1px;
+        .field {
+          width: 20%;
+        }
+        .description {
+          width: 80%;
+        }
+        .techs {
+          display: flex;
+          .tech {
+            height: 60px;
+            img {
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -8,22 +8,9 @@
     display: block;
     margin-bottom: 8px;
     img {
-      border: 1px solid #b30753;
+      border: 1px solid $main_color;
       border-radius: 5px;
     }
-  }
-
-  .card-caption-title {
-    font-weight: bold;
-    font-size: 13px;
-  }
-
-  .card-caption-info {
-    font-size: 12px;
-  }
-
-  .card-caption-url {
-    font-size: 10px;
   }
 
   .card-wrapper {
