@@ -1,17 +1,26 @@
 import React from 'react';
 import Modal from 'react-modal';
-import portfolio from '../../img/works/portfolio-ss.png';
-import portfolio_all from '../../img/works/portfolio-capture.png';
-import playground from '../../img/works/playground-ss.png';
+import portfolio_min from '../../img/works/portfolio-min.png';
+import portfolio from '../../img/works/portfolio.png';
+import playground_min from '../../img/works/playground-min.png';
+import playground from '../../img/works/playground.png';
 import react from '../../img/skill/react.png';
+import sass from '../../img/skill/sass.png';
 import redux from '../../img/skill/redux.png';
+import github from '../../img/skill/github.png';
+import s3 from '../../img/works/s3.png';
 import enhance from './enhancer';
+import ModalBody from './ModalBody';
 
 Modal.setAppElement('body');
 
 function Works(props) {
-  const {isModal, updateIsModal} = props;
-  const techs = [react, redux];
+  const {
+    isPortfolioModal,
+    isPlaygroundModal,
+    updateIsPortfolioModal,
+    updateIsPlaygroundModal,
+  } = props;
 
   return (
     <section className="section" id="works">
@@ -27,100 +36,47 @@ function Works(props) {
             <div
               className="card-image"
               onClick={() => {
-                updateIsModal(!isModal);
+                updateIsPortfolioModal(!isPortfolioModal);
               }}>
-              <img src={portfolio} alt="" />
+              <img src={portfolio_min} alt="" />
             </div>
             <Modal
-              isOpen={isModal}
-              contentLabel="Port Folio"
+              isOpen={isPortfolioModal}
               onRequestClose={() => {
-                updateIsModal(!isModal);
+                updateIsPortfolioModal(!isPortfolioModal);
               }}>
-              <div className="f__modal">
-                <div className="w__img">
-                  <img src={portfolio_all} alt="" />
-                </div>
-                <figcaption className="card-caption">
-                  <h1 class="section-title">Portfolio site</h1>
-                  <div class="section-content">
-                    <ul class="product-info">
-                      <li class="clearfix">
-                        <p class="field">URL</p>
-                        <p class="description">
-                          <a href="https://musou1500.github.io/">
-                            https://musou1500.github.io/
-                          </a>
-                        </p>
-                      </li>
-                      <li class="clearfix">
-                        <p class="field">ソースコード</p>
-                        <p class="description">
-                          <a href="https://github.com/musou1500/musou1500.github.io">
-                            https://github.com/musou1500/musou1500.github.io
-                          </a>
-                        </p>
-                      </li>
-                      <li class="clearfix">
-                        <p class="field">説明</p>
-                        <p class="description">
-                          このサイトです。「Works」で画像をクリックすると詳細を表示する動きなどはHaxeで組み、javascriptに変換して使っています。
-                        </p>
-                      </li>
-                      <li class="clearfix">
-                        <p class="field">使用した技術</p>
-                        <div class="description">
-                          <ul class="techs">
-                            {techs.map(tech => {
-                              return (
-                                <li class="tech">
-                                  <img src={tech} alt="" />
-                                </li>
-                              );
-                            })}
-                          </ul>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </figcaption>
-              </div>
+              <ModalBody
+                img={portfolio}
+                title="ポートフォリオサイト"
+                url="https://suuungwoo.github.io/homepage/"
+                code="https://github.com/suuungwoo/homepage/tree/master"
+                description="このサイトです。「Works」の画像をクリックすると詳細を表示したり、ヘッダーをスクロール位置によって固定するためにReact.jsを使用しました。"
+                techs={[react, sass, github]}
+              />
             </Modal>
           </figure>
           <figure className="card">
-            <a href={playground} data-size="980x668" className="card-image">
-              <img src={playground} alt="" />
-            </a>
-            {/* <Modal
-              isOpen={isModal}
-              contentLabel="Port Folio"
-              onRequestClose={() => {
-                updateIsModal(!isModal);
+            <div
+              className="card-image"
+              onClick={() => {
+                updateIsPlaygroundModal(!isPlaygroundModal);
               }}>
-              ab
-            </Modal> */}
-            <figcaption className="card-caption">
-              <p className="card-caption-title">ホテル検索</p>
-              <p className="card-caption-info">
-                地名を入力して近くのホテルを検索するサイトです。
-              </p>
-              <p className="card-caption-url">
-                URL:
-                <a
-                  className="url-link"
-                  href="http://playground-gckim.gemcook.com/hotel/">
-                  http://playground-gckim.gemcook.com/hotel/
-                </a>
-              </p>
-              <p className="card-caption-url">
-                ソースコード:
-                <a
-                  className="url-link"
-                  href="https://github.com/suuungwoo/playground">
-                  https://github.com/suuungwoo/playground
-                </a>
-              </p>
-            </figcaption>
+              <img src={playground_min} alt="" />
+            </div>
+            <Modal
+              isOpen={isPlaygroundModal}
+              onRequestClose={() => {
+                updateIsPlaygroundModal(!isPlaygroundModal);
+              }}>
+              <ModalBody
+                img={playground}
+                title="ホテル検索サイト"
+                url="http://playground-gckim.gemcook.com/hotel/"
+                code="https://github.com/suuungwoo/playground"
+                description="地名を入力すると近くのホテルを検索できるサイトです。状態管理にReduxを使用しました。"
+                techs={[react, redux, sass, s3]}
+              />
+            </Modal>
           </figure>
         </div>
       </div>

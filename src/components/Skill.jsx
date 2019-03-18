@@ -21,42 +21,42 @@ function Skill() {
           <p className="section-desc">使用する技術やソフトウェアです。</p>
         </div>
         <div className="w__skill">
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={react} alt="" />
           </div>
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={redux} alt="" />
           </div>
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={vue} alt="" />
           </div>
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={es6} alt="" />
           </div>
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={sass} alt="" />
           </div>
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={github} alt="" />
           </div>
         </div>
         <div className="w__skill">
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={aws} alt="" />
           </div>
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={postman} alt="" />
           </div>
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={vscode} alt="" />
           </div>
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={linux} alt="" />
           </div>
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={c} alt="" />
           </div>
-          <div className="skill-logo">
+          <div className="skill-icon">
             <img src={emacs} alt="" />
           </div>
         </div>
