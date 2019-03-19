@@ -6,7 +6,7 @@
   .two-column-desc {
     width: 62%;
   }
-  @media screen and (max-width: 767px) {
+  @include mq_down() {
     .two-column-wrapper {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;

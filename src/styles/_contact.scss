@@ -34,7 +34,7 @@
     font-weight: bold;
   }
 
-  @media screen and (max-width: 767px) {
+  @include mq_down() {
     .contact-list ul {
       width: 100%;
     }

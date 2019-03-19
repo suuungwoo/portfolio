@@ -17,6 +17,7 @@
 
   .logo {
     display: block;
+    text-align: center;
   }
 
   .logo-title {
@@ -35,7 +36,7 @@
     text-align: center;
   }
 
-  @media screen and (max-width: 767px) {
+  @include mq_down() {
     .logo-title {
       font-size: 32px;
     }

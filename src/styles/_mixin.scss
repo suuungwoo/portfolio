@@ -1,0 +1,10 @@
+@mixin mq_down($bp: sm) {
+  @media screen and (max-width: #{map-get($down_bps, $bp)}) {
+    @content;
+  }
+}
+@mixin mq_up($bp: sm) {
+  @media screen and (min-width: #{map-get($up_bps, $bp)}) {
+    @content;
+  }
+}

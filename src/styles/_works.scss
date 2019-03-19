@@ -19,21 +19,25 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px 0;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
   }
 
-  @media screen and (max-width: 767px) {
+  @include mq_down() {
     .card {
-      width: 48%;
+      width: 100%;
+      max-width: 480px;
     }
     .card-caption-title {
       font-size: 12px;
     }
     .card-caption-info {
       font-size: 11px;
+    }
+    .card-wrapper {
+      justify-content: center;
     }
   }
 }

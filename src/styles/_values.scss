@@ -1,3 +1,13 @@
 $main_color: #b30753;
 $bg_color: #f3f3f3;
 $text_color: #333;
+$down_bps: (
+  sm: 767px,
+  md: 991px,
+  lg: 1199px
+);
+$up_bps: (
+  sm: 768px,
+  md: 992px,
+  lg: 1200px
+);

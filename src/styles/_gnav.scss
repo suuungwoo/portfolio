@@ -39,7 +39,7 @@
     transform: translate3d(0, 0, 0);
   }
 
-  @media screen and (max-width: 767px) {
+  @include mq_down() {
     li {
       padding: 0 10px;
       font-size: 14px;

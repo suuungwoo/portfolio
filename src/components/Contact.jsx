@@ -21,13 +21,13 @@ function Contact() {
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/suuungwoo" target="_blank">
+                <a href="https://www.facebook.com/suuungwoo">
                   <img src={facebook} alt="" />
                   <span className="contact-list-desc">Facebook</span>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/suuungwoo" target="_blank">
+                <a href="https://github.com/suuungwoo">
                   <img src={github} alt="" />
                   <span className="contact-list-desc">GitHub</span>
                 </a>

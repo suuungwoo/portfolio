@@ -1,15 +1,5 @@
-@import './values';
-@import './reset';
-@import './Main';
-@import './Header';
-@import './Gnav';
-@import './Latestworks';
-@import './Works';
-@import './Profile';
-@import './Skill';
-@import './Contact';
-@import './Footer';
-@import './ReactModal';
+@import 'values', 'mixin', 'reset', 'header', 'latestworks', 'works', 'profile',
+  'skill', 'contact', 'footer', 'modal', 'gnav';
 
 *,
 *:before,
@@ -29,9 +19,9 @@ body {
     'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   line-height: 1.8;
   letter-spacing: 0.8px;
-  word-break: break-all;
+  word-break: break-word;
 
-  @media screen and (max-width: 767px) {
+  @include mq_down() {
     body {
       font-size: 13px;
       line-height: 1.7;
@@ -80,7 +70,90 @@ li {
 
 #contents {
   padding: 100px 0;
-  @media screen and (max-width: 767px) {
+  @include mq_down() {
     padding: 40px 0;
+  }
+}
+
+.section {
+  .inner {
+    padding: 80px 10px;
+  }
+
+  .section-title-block {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .section-title {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: $main_color;
+    font-weight: bold;
+    font-size: 56px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: -0.01em;
+  }
+
+  .section-desc {
+    text-align: center;
+  }
+
+  @include mq_down() {
+    .inner {
+      padding: 30px 15px;
+    }
+    .section-title-block {
+      margin-bottom: 10px;
+    }
+    .section-title {
+      font-size: 36px;
+    }
+  }
+  .two-column-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+  }
+
+  .two-column-image {
+    width: 33%;
+  }
+
+  .two-column-image img {
+    margin: 0 auto;
+  }
+
+  .two-column-desc {
+    width: 62%;
+  }
+}
+
+.hidden-sm-less {
+  @include mq_down() {
+    display: none !important;
+  }
+}
+.hidden-md-less {
+  @include mq_down(md) {
+    display: none !important;
+  }
+}
+.hidden-sm-more {
+  @include mq_up() {
+    display: none !important;
+  }
+}
+.hidden-md-more {
+  @include mq_up(md) {
+    display: none !important;
   }
 }
