@@ -89,6 +89,10 @@
       }
     }
   }
+  .aaa {
+    width: 20px;
+    height: 20px;
+  }
   @include mq_down(md) {
     .f__modal {
       flex-direction: column-reverse;

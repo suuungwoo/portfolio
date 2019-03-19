@@ -53,6 +53,12 @@ function Works(props) {
                 description="このサイトです。「Works」の画像をクリックすると詳細を表示したり、ヘッダーをスクロール位置によって固定するためにReact.jsを使用しました。"
                 techs={[react, sass, github]}
               />
+              <div
+                className="aaa"
+                onClick={() => {
+                  updateIsPortfolioModal(!isPortfolioModal);
+                }}
+              />
             </Modal>
           </figure>
           <figure className="card">
