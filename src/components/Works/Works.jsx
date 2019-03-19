@@ -54,7 +54,7 @@ function Works(props) {
                 techs={[react, sass, github]}
               />
               <div
-                className="aaa"
+                className="close-button hidden-more-sm"
                 onClick={() => {
                   updateIsPortfolioModal(!isPortfolioModal);
                 }}
@@ -81,6 +81,12 @@ function Works(props) {
                 code="https://github.com/suuungwoo/playground"
                 description="地名を入力すると近くのホテルを検索できるサイトです。状態管理にReduxを使用しました。"
                 techs={[react, redux, sass, s3]}
+              />
+              <div
+                className="close-button hidden-more-sm"
+                onClick={() => {
+                  updateIsPlaygroundModal(!isPlaygroundModal);
+                }}
               />
             </Modal>
           </figure>
