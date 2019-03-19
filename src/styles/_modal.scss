@@ -90,8 +90,24 @@
     }
   }
   .aaa {
-    width: 20px;
-    height: 20px;
+    position: fixed;
+    top: 46px;
+    right: 60px;
+    &::before,
+    &::after {
+      position: absolute;
+      width: 24px;
+      height: 4px;
+      background-color: #8c8c8c;
+      border-radius: 4px;
+      content: '';
+    }
+    &::before {
+      transform: rotate(45deg);
+    }
+    &::after {
+      transform: rotate(-45deg);
+    }
   }
   @include mq_down(md) {
     .f__modal {
