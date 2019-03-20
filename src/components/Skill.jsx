@@ -2,14 +2,18 @@ import React from 'react';
 import react from '../img/skill/react.png';
 import redux from '../img/skill/redux.png';
 import vue from '../img/skill/vue.png';
-import es6 from '../img/skill/es6.png';
+import javascript from '../img/skill/javascript.png';
 import sass from '../img/skill/sass.png';
+import python from '../img/skill/python.png';
+import ruby from '../img/skill/ruby.png';
+import git from '../img/skill/git.png';
 import github from '../img/skill/github.png';
 import aws from '../img/skill/aws.png';
+import circleci from '../img/skill/circleci.png';
 import postman from '../img/skill/postman.png';
 import vscode from '../img/skill/vscode.png';
 import linux from '../img/skill/linux.png';
-import c from '../img/skill/c.png';
+import clang from '../img/skill/clang.png';
 import emacs from '../img/skill/emacs.png';
 
 function Skill() {
@@ -22,27 +26,45 @@ function Skill() {
         </div>
         <div className="w__skill">
           <div className="skill-icon">
-            <img src={react} alt="" />
+            <img src={javascript} alt="" />
           </div>
           <div className="skill-icon">
-            <img src={redux} alt="" />
+            <img src={python} alt="" />
+          </div>
+          <div className="skill-icon">
+            <img src={ruby} alt="" />
+          </div>
+          <div className="skill-icon">
+            <img src={clang} alt="" />
+          </div>
+          <div className="skill-icon">
+            <img src={react} alt="" />
           </div>
           <div className="skill-icon">
             <img src={vue} alt="" />
           </div>
           <div className="skill-icon">
-            <img src={es6} alt="" />
-          </div>
-          <div className="skill-icon">
             <img src={sass} alt="" />
           </div>
           <div className="skill-icon">
-            <img src={github} alt="" />
+            <img src={redux} alt="" />
           </div>
         </div>
         <div className="w__skill">
           <div className="skill-icon">
+            <img src={git} alt="" />
+          </div>
+          <div className="skill-icon">
+            <img src={github} alt="" />
+          </div>
+          <div className="skill-icon">
             <img src={aws} alt="" />
+          </div>
+          <div className="skill-icon">
+            <img src={circleci} alt="" />
+          </div>
+          <div className="skill-icon">
+            <img src={linux} alt="" />
           </div>
           <div className="skill-icon">
             <img src={postman} alt="" />
@@ -51,88 +73,10 @@ function Skill() {
             <img src={vscode} alt="" />
           </div>
           <div className="skill-icon">
-            <img src={linux} alt="" />
-          </div>
-          <div className="skill-icon">
-            <img src={c} alt="" />
-          </div>
-          <div className="skill-icon">
             <img src={emacs} alt="" />
           </div>
         </div>
         <div />
-        {/* <div className="card-wrapper">
-          <div className="card">
-            <div className="skill-icon">
-              <img src={icon_skill} alt="" />
-            </div>
-            <div className="skill-desc">
-              <h3 className="skill-desc-title">HTML5/CSS3</h3>
-              <div className="rating">
-                <p className="rate rate4" />
-              </div>
-              <p className="text">
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="skill-icon">
-              <img src={icon_skill} alt="" />
-            </div>
-            <div className="skill-desc">
-              <h3 className="skill-desc-title">JavaScript</h3>
-              <div className="rating">
-                <p className="rate rate3" />
-              </div>
-              <p className="text">
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="skill-icon">
-              <img src={icon_skill} alt="" />
-            </div>
-            <div className="skill-desc">
-              <h3 className="skill-desc-title">WordPress</h3>
-              <div className="rating">
-                <p className="rate rate4" />
-              </div>
-              <p className="text">
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="skill-icon">
-              <img src={icon_skill} alt="" />
-            </div>
-            <div className="skill-desc">
-              <h3 className="skill-desc-title">Photoshop</h3>
-              <div className="rating">
-                <p className="rate rate4" />
-              </div>
-              <p className="text">
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-              </p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="skill-icon">
-              <img src={icon_skill} alt="" />
-            </div>
-            <div className="skill-desc">
-              <h3 className="skill-desc-title">Illustrator</h3>
-              <div className="rating">
-                <p className="rate rate3" />
-              </div>
-              <p className="text">
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-              </p>
-            </div>
-          </div>
-        </div> */}
       </div>
     </section>
   );

@@ -1,6 +1,7 @@
 import React from 'react';
 import twitter from '../img/contact/twitter.png';
 import facebook from '../img/contact/facebook.png';
+import instagram from '../img/contact/instagram.png';
 import github from '../img/contact/github.png';
 import qiita from '../img/contact/qiita.png';
 import wantedly from '../img/contact/wantedly.png';
@@ -26,6 +27,12 @@ function Contact() {
                 <a href="https://www.facebook.com/suuungwoo">
                   <img src={facebook} alt="" />
                   <span className="contact-list-desc">Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/suuungwoo">
+                  <img src={instagram} alt="" />
+                  <span className="contact-list-desc">Instagram</span>
                 </a>
               </li>
               <li>
