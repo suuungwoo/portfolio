@@ -2,6 +2,8 @@ import React from 'react';
 import twitter from '../img/contact/twitter.png';
 import facebook from '../img/contact/facebook.png';
 import github from '../img/contact/github.png';
+import qiita from '../img/contact/qiita.png';
+import wantedly from '../img/contact/wantedly.png';
 
 function Contact() {
   return (
@@ -30,6 +32,18 @@ function Contact() {
                 <a href="https://github.com/suuungwoo">
                   <img src={github} alt="" />
                   <span className="contact-list-desc">GitHub</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://qiita.com/suuungwoo">
+                  <img src={qiita} alt="" />
+                  <span className="contact-list-desc">Qiita</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.wantedly.com/users/35261053">
+                  <img src={wantedly} alt="" />
+                  <span className="contact-list-desc">Wantedly</span>
                 </a>
               </li>
             </ul>
