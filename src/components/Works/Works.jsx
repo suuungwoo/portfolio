@@ -8,7 +8,7 @@ import react from '../../img/skill/react.png';
 import sass from '../../img/skill/sass.png';
 import redux from '../../img/skill/redux.png';
 import github from '../../img/skill/github.png';
-import s3 from '../../img/works/s3.png';
+import s3 from '../../img/skill/s3.png';
 import enhance from './enhancer';
 import ModalBody from './ModalBody';
 
