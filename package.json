@@ -1,5 +1,5 @@
 {
-  "name": "homepage",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "deploy": "react-scripts build && gh-pages -d build"
   },
-  "homepage": "http://suuungwoo.github.io/homepage",
+  "homepage": "http://suuungwoo.github.io/portfolio",
   "eslintConfig": {
     "extends": "react-app"
   },
