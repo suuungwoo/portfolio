@@ -38,6 +38,7 @@
         color: $main_color;
         font-size: 30px;
         text-align: center;
+        font-family: $morisawa_font, sans-serif;
         @include mq_down() {
           font-size: 20px;
         }
