@@ -48,8 +48,8 @@ function Works(props) {
               <ModalBody
                 img={portfolio}
                 title="ポートフォリオサイト"
-                url="https://suuungwoo.github.io/homepage/"
-                code="https://github.com/suuungwoo/homepage/tree/master"
+                url="https://suuungwoo.github.io/portfolio/"
+                code="https://github.com/suuungwoo/portfolio"
                 description="このサイトです。「Works」の画像をクリックすると詳細を表示したり、ヘッダーをスクロール位置によって固定するためにReact.jsを使用しました。"
                 techs={[react, sass, github]}
               />
