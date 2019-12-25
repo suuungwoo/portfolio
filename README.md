@@ -12,7 +12,7 @@ $ yarn start
 ```
 
 ## Usage
-Workをクリックするとモーダルが開く。
+Workをクリックするとモーダルが開く．
 
 ## License
 This software is released under the MIT License, see LICENSE.

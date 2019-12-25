@@ -7,7 +7,7 @@ function Latestworks() {
       <div className="inner">
         <div className="section-title-block">
           <h2 className="section-title">LATEST WORKS</h2>
-          <p className="section-desc">最新の制作実績です。</p>
+          <p className="section-desc">最新の制作実績です．</p>
         </div>
         <div className="two-column-wrapper">
           <div className="two-column-image">

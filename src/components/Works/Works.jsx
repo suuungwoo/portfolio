@@ -27,7 +27,7 @@ function Works(props) {
         <div className="section-title-block">
           <h2 className="section-title">WORKS</h2>
           <div className="section-desc">
-            <p className="text">これまで制作したものです。</p>
+            <p className="text">これまで制作したものです．</p>
           </div>
         </div>
         <div className="card-wrapper my-gallery">
@@ -49,7 +49,7 @@ function Works(props) {
                 title="ポートフォリオサイト"
                 url="https://suuungwoo.github.io/portfolio/"
                 code="https://github.com/suuungwoo/portfolio"
-                description="このサイトです。「Works」の画像をクリックすると詳細を表示したり、ヘッダーをスクロール位置によって固定するためにReact.jsを使用しました。"
+                description="このサイトです．「Works」の画像をクリックすると詳細を表示したり、ヘッダーをスクロール位置によって固定するためにReact.jsを使用しました．"
                 techs={[react, html, css]}
               />
               <div
@@ -78,7 +78,7 @@ function Works(props) {
                 title="ホテル検索サイト"
                 url="http://playground-gckim.gemcook.com/hotel/"
                 code="https://github.com/suuungwoo/playground"
-                description="地名を入力すると近くのホテルを検索できるサイトです。状態管理にReduxを使用しました。"
+                description="地名を入力すると近くのホテルを検索できるサイトです．状態管理にReduxを使用しました．"
                 techs={[react, html, css, s3]}
               />
               <div

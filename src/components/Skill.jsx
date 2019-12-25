@@ -21,7 +21,7 @@ function Skill() {
       <div className="inner">
         <div className="section-title-block">
           <h2 className="section-title">SKILL</h2>
-          <p className="section-desc">使用する技術やソフトウェアです。</p>
+          <p className="section-desc">使用する技術やソフトウェアです．</p>
         </div>
         <div className="w__skill">
           <div className="skill-icon">

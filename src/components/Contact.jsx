@@ -14,7 +14,7 @@ function Contact() {
       <div className="inner">
         <div className="section-title-block">
           <h2 className="section-title">CONTACT</h2>
-          <p className="section-desc">お問合わせは下記からご連絡をください。</p>
+          <p className="section-desc">お問合わせは下記からご連絡をください．</p>
         </div>
         <div className="contact-wrapper">
           <div className="contact-list">
