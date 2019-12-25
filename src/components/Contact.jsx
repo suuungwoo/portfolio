@@ -1,10 +1,12 @@
 import React from 'react';
-import twitter from '../img/contact/twitter.png';
-import facebook from '../img/contact/facebook.png';
-import instagram from '../img/contact/instagram.png';
-import github from '../img/contact/github.png';
-import qiita from '../img/contact/qiita.png';
-import wantedly from '../img/contact/wantedly.png';
+import {
+  twitter,
+  facebook,
+  instagram,
+  github,
+  qiita,
+  wantedly,
+} from '../img/contact';
 
 function Contact() {
   return (

@@ -24,14 +24,21 @@
       }
 
       img {
-        width: 60px;
+        height: 60px;
         margin: 0 auto 5px;
+        &:hover {
+          transform: scale3d(1.03, 1.03, 1.03);
+          +.contact-list-desc {
+            visibility: visible;
+          }
+        }
       }
     }
   }
 
   .contact-list-desc {
     font-weight: bold;
+    visibility:hidden	
   }
 
   @include mq_down() {

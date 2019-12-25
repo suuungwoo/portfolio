@@ -32,20 +32,22 @@
 
   .w__skill {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     padding: {
       top: 24px;
     }
   }
   .skill-icon {
-    padding: {
-      right: 24px;
-      left: 24px;
-    }
+    padding: 16px;
 
     img {
+      display: block;
       max-height: 100px;
+      &:hover {
+        transform: rotate(360deg);
+        transition: 0.3s;
+      }
     }
   }
 
