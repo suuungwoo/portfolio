@@ -59,6 +59,7 @@
       flex-basis: 100%;
     }
     .w__skill {
+      justify-content: center;
       padding: {
         top: 8px;
       }
@@ -70,7 +71,7 @@
       }
 
       img {
-        max-height: 42px;
+        max-height: 64px;
       }
     }
   }
