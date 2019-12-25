@@ -13,6 +13,7 @@ function Main() {
     <div id="wrapper">
       <Header />
       <Gnav />
+      <div class="shutter"></div>
       <main id="contents">
         {/* <Latestworks /> */}
         <Profile />
