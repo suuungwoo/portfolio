@@ -45,9 +45,9 @@
       display: block;
       max-height: 100px;
       &:hover {
-        transform: rotate(360deg);
-        transition: 0.3s;
+        transform: rotate(20turn);
       }
+      transition: 5s;
     }
   }
 
