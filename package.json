@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "moveto": "^1.8.0",
     "node-sass": "^4.13.1",
     "prettier-stylelint": "^0.4.2",
